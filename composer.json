@@ -15,10 +15,15 @@
     "vendor-dir": "Packages/Libraries",
     "bin-dir": "bin"
   },
+  "repositories": {
+    "distribution": {
+        "type": "path",
+        "url": "./DistributionPackages/*"
+    }
+  },
   "require": {
     "neos/neos-development-collection": "@dev",
     "neos/flow-development-collection": "@dev",
-    "neos/demo": "@dev",
     "neos/neos-ui": "@dev",
     "neos/neos-ui-compiled": "@dev",
     "neos/fusion-afx": "@dev",
@@ -34,7 +39,9 @@
     "mikey179/vfsstream": "^1.6",
     "phpunit/phpunit": "^8.1",
     "symfony/css-selector": "^2.0",
-    "neos/behat": "dev-master"
+    "neos/behat": "dev-master",
+    "neos/test-site": "@dev",
+    "neos/test-nodetypes": "@dev"
   },
   "suggest": {
     "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
