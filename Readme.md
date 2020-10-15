@@ -5,8 +5,7 @@ The neos-ui is using [testcafe](https://github.com/DevExpress/testcafe) for acce
 for the test cases.
 
 The distribution is used for the CircleCI pipeline and you can also use it for your
-local environment. The distribution is currently based on neos 3.3 because the lowest maintained
-branch for the Ui is 2.x and is for neos 3.3.
+local environment. The distribution is currently based on neos master because it is a copy of the neos-development-collection and I need to adjust the older branches.
 
 ## Installation and usage
 
