@@ -20,3 +20,7 @@
 Build/Resources/Java/selenium-server-standalone*
 /"
 Upgrading.rst
+
+# ignore dummy packages from neos-ui test distribution
+/DummyDistributionPackages
+/.editorconfig
