@@ -12,6 +12,8 @@
         "url": "./DistributionPackages/*"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "neos/neos-development-collection": "7.0.x-dev",
     "neos/flow-development-collection": "7.0.x-dev",

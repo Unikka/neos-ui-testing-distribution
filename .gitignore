@@ -3,7 +3,8 @@
 /Build/BuildEssentials
 /Build/Reports
 /Build/Resources
-/Configuration/
+/Configuration/*
+!/Configuration/Settings.yaml.test-example
 /Data/
 /Packages/
 /Web/
