@@ -24,6 +24,13 @@ composer install --prefer-source
 
 3. Create Database and configure Settings.yaml
 
+
+```
+cp Configuration/Settings.yaml.test-example Configuration/Settings.yaml
+```
+
+And then adjust the database configuration to your needs.
+
 ```
 Neos:
     Flow:
