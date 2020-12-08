@@ -12,11 +12,13 @@
         "url": "./DistributionPackages/*"
     }
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
-    "neos/neos-development-collection": "@dev",
-    "neos/flow-development-collection": "@dev",
-    "neos/neos-ui": "@dev",
-    "neos/neos-ui-compiled": "@dev",
+    "neos/neos-development-collection": "~5.3.0",
+    "neos/flow-development-collection": "~6.3.0",
+    "neos/neos-ui": "~5.3.0",
+    "neos/neos-ui-compiled": "~5.3.0",
     "neos/fusion-afx": "@dev",
     "neos/fusion-form": "@dev",
     "neos/party": "@dev",
